@@ -4,7 +4,7 @@
 // Assume punctuation and numbers symbols are not included in the passed string.
 let arr = [];             //array to store characters from string
 let str = "";             //temporary variable to save appended string
-let input = prompt("Enter String");       // taking input
+let input = prompt("Enter String you want to sort");       // taking input
 //function fot sorting string
 function sortString(stringTobeSorted) {
     for (let i = 0; i < stringTobeSorted.length; i++) {     //loop for traversing string

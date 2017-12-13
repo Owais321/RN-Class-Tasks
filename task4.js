@@ -3,7 +3,7 @@
 // Example string : 'The quick brown fox' 
 // Expected Output : 5 (edited)
 let vowelCounter = 0;             //vowel counter
-let input = prompt("Enter number you want to reverse");           //taking input
+let input = prompt("Enter String to get number of vowels");           //taking input
 //function to count vowel
 function countVowel(stringForCheck) {
     for (let i = 0; i < input.length; i++) {    //loop for traversering complete string
